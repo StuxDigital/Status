@@ -17,6 +17,14 @@ Updated by GitHup whenever the status page is rebuilt (hourly, and when a status
 table fills in after the workflow's first check.
 
 <!-- githup:start -->
+<!-- This table is written by GitHup (https://github.com/StuxGroup/GitHup); edits here are overwritten. -->
+
+**No data yet** · [Live status page](https://status.stux.digital/)
+
+| Group | Monitor | Status | Uptime (24 h) | Uptime (7 d) | Uptime (30 d) | Response time (24 h) |
+| ----- | ------- | ------ | ------------- | ------------ | ------------- | -------------------- |
+| Stux.Digital | [Stux.Digital](https://stux.digital/) | No data | n/a | n/a | n/a | n/a |
+| Shared | [Stux.Digital Media CDN](https://global.media.stux.digital/icon.png) | No data | n/a | n/a | n/a | n/a |
 <!-- githup:end -->
 
 ## What's monitored
