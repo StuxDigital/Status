@@ -1,0 +1,54 @@
+# Stux.Digital Status: https://status.stux.digital
+# Checked every 5 minutes by .github/workflows/status.yml, using GitHup:
+# https://github.com/StuxGroup/GitHup
+site:
+  name: Stux.Digital Status
+  description: Live status of Stux.Digital and the client sites it takes from idea to online, checked every 5 minutes.
+  # The bright logo-light/icon-light variants read on both of GitHup's themes (GitHup takes one logo).
+  logo: https://global.media.stux.digital/logo-light.png
+  favicon: https://global.media.stux.digital/icon-light.png
+  # Stux.Digital's dark-theme sky blue; GitHup darkens it on the light theme until it reads.
+  accent: "#38BDF8"
+  url: https://status.stux.digital/
+  footer_links:
+    - label: Stux.Digital Clients
+      url: https://clients.stux.digital/
+    - label: Report a problem
+      url: https://github.com/StuxDigital/Status/issues/new
+
+legal:
+  operator: Stux.Digital
+  company: "Stux.Digital is operated by Stux Group Ltd, a company registered in England and Wales (company no. 13160574), registered office 82a James Carter Road, Mildenhall, England, IP28 7DE."
+  contact: legal@stux.digital
+  host: GitHub Pages
+  effective: 8 October 2026
+
+defaults:
+  timeout: 15
+  retries: 2
+  max_response_time: 15000  # ms; GitHup's default. Slower (but otherwise good) answers show as degraded
+
+# Monitors are grouped into sections on the page, each with a combined status.
+# Slugs come from the names, so moving a monitor between groups keeps its history.
+# Not monitored yet because they don't serve yet (no DNS / Pages on 8 October 2026):
+# clients.stux.digital, clientpage.stux.digital, soonpage.stux.digital and
+# maintenancepage.stux.digital. Add each to the Stux.Digital group once it answers, and the
+# Clients site's cards pick up its badge from the monitor's slug. Client sites get their own
+# group once the first one is live.
+groups:
+  - name: Stux.Digital
+    description: The Stux.Digital studio's own site.
+    monitors:
+      - name: Stux.Digital
+        url: https://stux.digital/
+        description: The studio, and the front door for a new site
+
+  - name: Shared
+    description: The media every Stux.Digital site relies on.
+    monitors:
+      - name: Stux.Digital Media CDN
+        url: https://global.media.stux.digital/icon.png
+        description: Shared logos and images used across every Stux.Digital site
+
+incidents:
+  labels: [status]
