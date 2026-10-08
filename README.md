@@ -19,12 +19,12 @@ table fills in after the workflow's first check.
 <!-- githup:start -->
 <!-- This table is written by GitHup (https://github.com/StuxGroup/GitHup); edits here are overwritten. -->
 
-**No data yet** · [Live status page](https://status.stux.digital/)
+**All systems operational** · [Live status page](https://status.stux.digital/)
 
 | Group | Monitor | Status | Uptime (24 h) | Uptime (7 d) | Uptime (30 d) | Response time (24 h) |
 | ----- | ------- | ------ | ------------- | ------------ | ------------- | -------------------- |
-| Stux.Digital | [Stux.Digital](https://stux.digital/) | No data | n/a | n/a | n/a | n/a |
-| Shared | [Stux.Digital Media CDN](https://global.media.stux.digital/icon.png) | No data | n/a | n/a | n/a | n/a |
+| Stux.Digital | [Stux.Digital](https://stux.digital/) | Up | 100.00% | 100.00% | 100.00% | 349 ms |
+| Shared | [Stux.Digital Media CDN](https://global.media.stux.digital/icon.png) | Up | 100.00% | 100.00% | 100.00% | 138 ms |
 <!-- githup:end -->
 
 ## What's monitored
