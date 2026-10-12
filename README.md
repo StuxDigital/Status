@@ -23,8 +23,8 @@ table fills in after the workflow's first check.
 
 | Group | Monitor | Status | Uptime (24 h) | Uptime (7 d) | Uptime (30 d) | Response time (24 h) |
 | ----- | ------- | ------ | ------------- | ------------ | ------------- | -------------------- |
-| Stux.Digital | [Stux.Digital](https://stux.digital/) | Up | 100.00% | 100.00% | 100.00% | 373 ms |
-| Shared | [Stux.Digital Media CDN](https://global.media.stux.digital/icon.png) | Up | 100.00% | 100.00% | 100.00% | 562 ms |
+| Stux.Digital | [Stux.Digital](https://stux.digital/) | Up | 100.00% | 100.00% | 100.00% | 369 ms |
+| Shared | [Stux.Digital Media CDN](https://global.media.stux.digital/icon.png) | Up | 100.00% | 100.00% | 100.00% | 542 ms |
 <!-- githup:end -->
 
 ## What's monitored
