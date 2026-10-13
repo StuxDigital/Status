@@ -19,11 +19,11 @@ table fills in after the workflow's first check.
 <!-- githup:start -->
 <!-- This table is written by GitHup (https://github.com/StuxGroup/GitHup); edits here are overwritten. -->
 
-**Partial outage** · [Live status page](https://status.stux.digital/)
+**All systems operational** · [Live status page](https://status.stux.digital/)
 
 | Group | Monitor | Status | Uptime (24 h) | Uptime (7 d) | Uptime (30 d) | Response time (24 h) |
 | ----- | ------- | ------ | ------------- | ------------ | ------------- | -------------------- |
-| Stux.Digital | [Stux.Digital](https://stux.digital/) | **Down** | 96.42% | 99.31% | 99.31% | 541 ms |
+| Stux.Digital | [Stux.Digital](https://stux.digital/) | Up | 96.29% | 99.33% | 99.33% | 527 ms |
 | Shared | [Stux.Digital Media CDN](https://global.media.stux.digital/icon.png) | Up | 100.00% | 100.00% | 100.00% | 711 ms |
 <!-- githup:end -->
 
