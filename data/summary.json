@@ -1,7 +1,7 @@
 {
  "version": 1,
  "generator": "GitHup",
- "updated": 1792501712,
+ "updated": 1792502011,
  "name": "Stux.Digital Status",
  "status": "up",
  "monitors": [
@@ -11,8 +11,8 @@
    "url": "https://stux.digital/",
    "status": "up",
    "code": 200,
-   "ms": 688,
-   "checked_at": 1792501711,
+   "ms": 280,
+   "checked_at": 1792502011,
    "last_change": {
     "at": 1791887150,
     "from": "down",
@@ -21,22 +21,22 @@
    "uptime": {
     "24h": 100.0,
     "7d": 100.0,
-    "30d": 99.782,
-    "90d": 99.782,
-    "all": 99.782
+    "30d": 99.783,
+    "90d": 99.783,
+    "all": 99.783
    },
    "avg_ms": {
-    "24h": 352,
-    "7d": 459,
-    "30d": 459,
-    "90d": 459,
-    "all": 459
+    "24h": 350,
+    "7d": 458,
+    "30d": 458,
+    "90d": 458,
+    "all": 458
    },
    "totals": {
-    "checks": 460,
-    "available": 459,
-    "ms_sum": 210551,
-    "ms_n": 459,
+    "checks": 461,
+    "available": 460,
+    "ms_sum": 210831,
+    "ms_n": 460,
     "first": 1791482184
    },
    "incident": null
@@ -47,8 +47,8 @@
    "url": "https://global.media.stux.digital/icon.png",
    "status": "up",
    "code": 200,
-   "ms": 176,
-   "checked_at": 1792501711,
+   "ms": 87,
+   "checked_at": 1792502011,
    "last_change": {
     "at": 1791482184,
     "from": null,
@@ -62,17 +62,17 @@
     "all": 100.0
    },
    "avg_ms": {
-    "24h": 369,
+    "24h": 361,
     "7d": 362,
-    "30d": 423,
-    "90d": 423,
-    "all": 423
+    "30d": 422,
+    "90d": 422,
+    "all": 422
    },
    "totals": {
-    "checks": 460,
-    "available": 460,
-    "ms_sum": 194363,
-    "ms_n": 460,
+    "checks": 461,
+    "available": 461,
+    "ms_sum": 194450,
+    "ms_n": 461,
     "first": 1791482184
    },
    "incident": null
