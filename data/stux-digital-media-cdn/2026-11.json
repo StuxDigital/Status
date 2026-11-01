@@ -1,3 +1,4 @@
 {"monitor":"stux-digital-media-cdn","month":"2026-11","fields":["t","status","code","ms"],"checks":[
-[1793494775,"up",200,481]
+[1793494775,"up",200,481],
+[1793495075,"up",200,299]
 ]}
