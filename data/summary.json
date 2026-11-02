@@ -1,49 +1,45 @@
 {
  "version": 1,
  "generator": "GitHup",
- "updated": 1793612074,
+ "updated": 1793612360,
  "name": "Stux.Digital Status",
- "status": "partial",
+ "status": "up",
  "monitors": [
   {
    "slug": "stux-digital",
    "name": "Stux.Digital",
    "url": "https://stux.digital/",
-   "status": "down",
-   "code": 503,
-   "ms": 84,
-   "checked_at": 1793612060,
+   "status": "up",
+   "code": 200,
+   "ms": 368,
+   "checked_at": 1793612360,
    "last_change": {
-    "at": 1793611460,
-    "from": "up",
-    "to": "down"
+    "at": 1793612360,
+    "from": "down",
+    "to": "up"
    },
    "uptime": {
-    "24h": 90.625,
-    "7d": 98.701,
+    "24h": 90.909,
+    "7d": 98.706,
     "30d": 99.578,
     "90d": 99.578,
     "all": 99.578
    },
    "avg_ms": {
-    "24h": 337,
-    "7d": 550,
+    "24h": 338,
+    "7d": 549,
     "30d": 481,
     "90d": 481,
     "all": 481
    },
    "totals": {
-    "checks": 948,
-    "available": 944,
-    "ms_sum": 454059,
-    "ms_n": 944,
+    "checks": 949,
+    "available": 945,
+    "ms_sum": 454427,
+    "ms_n": 945,
     "first": 1791482184
    },
-   "incident": {
-    "number": 2,
-    "url": "https://github.com/StuxDigital/Status/issues/2",
-    "opened": 1793611460
-   }
+   "incident": null
   },
   {
    "slug": "stux-digital-media-cdn",
@@ -51,8 +47,8 @@
    "url": "https://global.media.stux.digital/icon.png",
    "status": "up",
    "code": 200,
-   "ms": 104,
-   "checked_at": 1793612060,
+   "ms": 301,
+   "checked_at": 1793612360,
    "last_change": {
     "at": 1791482184,
     "from": null,
@@ -66,17 +62,17 @@
     "all": 100.0
    },
    "avg_ms": {
-    "24h": 247,
+    "24h": 248,
     "7d": 277,
     "30d": 351,
     "90d": 351,
     "all": 351
    },
    "totals": {
-    "checks": 948,
-    "available": 948,
-    "ms_sum": 332462,
-    "ms_n": 948,
+    "checks": 949,
+    "available": 949,
+    "ms_sum": 332763,
+    "ms_n": 949,
     "first": 1791482184
    },
    "incident": null
