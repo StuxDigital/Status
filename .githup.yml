@@ -4,9 +4,10 @@
 site:
   name: Stux.Digital Status
   description: Live status of Stux.Digital and the client sites it takes from idea to online, checked every 5 minutes.
-  # The bright logo-light/icon-light variants read on both of GitHup's themes (GitHup takes one logo).
-  logo: https://global.media.stux.digital/logo-light.png
-  favicon: https://global.media.stux.digital/icon-light.png
+  # Its own badge icon (the Stux.Digital mark with a heartbeat badge, from Clients' scripts/badge-icons.py),
+  # as on clients.stux.digital. Its dark avatar reads on both of GitHup's themes.
+  logo: https://clients.stux.digital/assets/img/clients/stux-digital-status.png
+  favicon: https://clients.stux.digital/assets/img/clients/stux-digital-status.png
   # Stux.Digital's dark-theme sky blue; GitHup darkens it on the light theme until it reads.
   accent: "#38BDF8"
   url: https://status.stux.digital/
