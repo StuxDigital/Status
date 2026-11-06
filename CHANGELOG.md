@@ -5,6 +5,13 @@ All notable changes to Stux.Digital Status are documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Date Versioning](https://datevers.ing) since v26.10.23 (`YY.MM.DD`, the UTC release date, with `-1`, `-2`… for later releases the same day); earlier releases used [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## v26.11.06-1
+
+### Changed
+
+- `README.md` and the `.githup.yml` comment no longer say Stux.Digital Clients, Clientpage, Soonpage and Maintenancepage don't serve yet: they all do, and can now be added as monitors. They also say the first client site, Stux.Group, is monitored by Stux.Group Status
+- `CONTRIBUTING.md` uses the full name, Stux.Digital Status, and says the logo and favicon are the page's own badge icon rather than `logo-light.png`
+
 ## v26.11.06
 
 ### Changed

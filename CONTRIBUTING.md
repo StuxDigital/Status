@@ -2,9 +2,9 @@
   <picture><source media="(prefers-color-scheme: dark)" srcset="https://global.media.stux.digital/logo-light.png"><source media="(prefers-color-scheme: light)" srcset="https://global.media.stux.digital/logo-dark.png"><img src="https://global.media.stux.digital/logo-dark.png" height="80" alt="Stux.Digital Logo"></picture>
 </p>
 
-# Contributing to Status
+# Contributing to Stux.Digital Status
 
-Status is Stux.Digital's status page, [status.stux.digital](https://status.stux.digital), built with
+Stux.Digital Status is Stux.Digital's status page, [status.stux.digital](https://status.stux.digital), built with
 [GitHup](https://githup.stux.group). To report an outage, open an Issue. Bugs or ideas for the
 status page software belong in [StuxGroup/GitHup](https://github.com/StuxGroup/GitHup/issues).
 
@@ -22,7 +22,7 @@ You need Python 3.11+ and nothing else.
   [GitHup docs](https://githup.stux.group/docs/). Only add sites Stux.Digital runs.
 - **The status page itself is GitHup's**, including the legal pages and 404. Change how it
   looks or works in GitHup, not here.
-- **Brand.** Stux.Digital is a two-tone sky blue (`#38bdf8` on dark, `#0369a1` on light). GitHup takes one accent, so `site.accent` is the dark-theme `#38BDF8` and GitHup darkens it on the light theme until it reads; the logo is the bright `logo-light.png`, which reads on both themes.
+- **Brand.** Stux.Digital is a two-tone sky blue (`#38bdf8` on dark, `#0369a1` on light). GitHup takes one accent, so `site.accent` is the dark-theme `#38BDF8` and GitHup darkens it on the light theme until it reads; the logo and favicon are the page's own badge icon (the Stux.Digital mark with a heartbeat badge, from `StuxDigital/Clients`' `scripts/badge-icons.py`), whose dark avatar reads on both themes.
 - **Legal pages.** The `legal:` block in `.githup.yml` drives **Boring Legal Stuff** at `/legal/`.
   Keep it accurate.
 - **Don't edit `data/` by hand.** It belongs to GitHup and the workflow.
