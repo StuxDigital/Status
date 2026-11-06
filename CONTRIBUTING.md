@@ -27,6 +27,12 @@ You need Python 3.11+ and nothing else.
   Keep it accurate.
 - **Don't edit `data/` by hand.** It belongs to GitHup and the workflow.
 
+## Branches
+
+Work happens on `test` (or a branch off it), never on `main`. Changes reach `main` only through a pull request from `test`, which needs CI to pass and is reviewed and merged by Leo; the release commit and tag are made on `test` (`git push origin test --tags`) and go live when the pull request is merged.
+
+GitHup commits monitoring data to `main` every few minutes, so `test` falls behind quickly: merge `main` into `test` (`git fetch origin && git merge origin/main` on `test`) before starting new work, so the pull request merges cleanly.
+
 ## Versioning
 
 This project uses [Date Versioning](https://datevers.ing). To release:

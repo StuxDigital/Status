@@ -31,10 +31,10 @@ table fills in after the workflow's first check.
 
 Every 5 minutes (when GitHub runs the schedule late, a run checks up to 4 times, 5 minutes apart, to fill the gap), GitHup checks each monitor in [`.githup.yml`](.githup.yml):
 
-- **Stux.Digital:** the studio's own site, [stux.digital](https://stux.digital)
+- **Stux.Digital:** the studio's own site, [stux.digital](https://stux.digital), and
+  [Stux.Digital Clients](https://clients.stux.digital)
+- **Templates:** Stux.Digital Clientpage, Soonpage and Maintenancepage
 - **Shared:** the Stux.Digital media CDN
-- Not monitored yet: Stux.Digital Clients (`clients.stux.digital`), Clientpage, Soonpage and
-  Maintenancepage. They all serve now, so each can be added to the Stux.Digital group
 - The first client site, Stux.Group, is monitored by [Stux.Group Status](https://status.stux.group)
   (its Clients card reads `stux-group:stux-group`), so there's no client-sites group here yet. Each
   monitor's slug (from its name) is what [Stux.Digital Clients](https://clients.stux.digital) uses
@@ -86,6 +86,8 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 ## Versioning
 
 This project uses [Date Versioning](https://datevers.ing): each release is numbered by its UTC release date as `YY.MM.DD` (for example `26.10.23`), with `-1`, `-2`… for later releases the same day. See [CHANGELOG.md](CHANGELOG.md) for what changed in each release, and [CONTRIBUTING.md](CONTRIBUTING.md) for the release steps.
+
+Work happens on `test` (or a branch off it), never on `main`. Changes reach `main` only through a pull request from `test`, which needs CI to pass and is reviewed and merged by Leo; the release commit and tag are made on `test` (`git push origin test --tags`) and go live when the pull request is merged.
 
 ## License
 
