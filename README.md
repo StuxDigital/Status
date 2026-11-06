@@ -33,10 +33,12 @@ Every 5 minutes (when GitHub runs the schedule late, a run checks up to 4 times,
 
 - **Stux.Digital:** the studio's own site, [stux.digital](https://stux.digital)
 - **Shared:** the Stux.Digital media CDN
-- Not monitored yet, because they don't serve yet: Clients (`clients.stux.digital`), Clientpage,
-  Soonpage and Maintenancepage. Add each to the Stux.Digital group once it answers
-- Client sites get their own group once the first one is live. Each monitor's slug (from its
-  name) is what [Stux.Digital Clients](https://clients.stux.digital) uses for that card's live badge
+- Not monitored yet: Stux.Digital Clients (`clients.stux.digital`), Clientpage, Soonpage and
+  Maintenancepage. They all serve now, so each can be added to the Stux.Digital group
+- The first client site, Stux.Group, is monitored by [Stux.Group Status](https://status.stux.group)
+  (its Clients card reads `stux-group:stux-group`), so there's no client-sites group here yet. Each
+  monitor's slug (from its name) is what [Stux.Digital Clients](https://clients.stux.digital) uses
+  for that card's live badge
 
 To add a site, add a monitor to the right group there (or a new group). A group can also hold `links:` instead of monitors, for sites that should be listed but not checked.
 
@@ -83,7 +85,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Versioning
 
-This project uses [Date Versioning](https://datevers.ing): each release is numbered by its UTC release date as `YY.MM.DD` (for example `26.10.23`), with `-1`, `-2`… for later releases the same day. See [CHANGELOG.md](CHANGELOG.md) for what changed in each release.
+This project uses [Date Versioning](https://datevers.ing): each release is numbered by its UTC release date as `YY.MM.DD` (for example `26.10.23`), with `-1`, `-2`… for later releases the same day. See [CHANGELOG.md](CHANGELOG.md) for what changed in each release, and [CONTRIBUTING.md](CONTRIBUTING.md) for the release steps.
 
 ## License
 

@@ -31,11 +31,11 @@ defaults:
 
 # Monitors are grouped into sections on the page, each with a combined status.
 # Slugs come from the names, so moving a monitor between groups keeps its history.
-# Not monitored yet because they don't serve yet (no DNS / Pages on 8 October 2026):
-# clients.stux.digital, clientpage.stux.digital, soonpage.stux.digital and
-# maintenancepage.stux.digital. Add each to the Stux.Digital group once it answers, and the
-# Clients site's cards pick up its badge from the monitor's slug. Client sites get their own
-# group once the first one is live.
+# Not monitored yet: clients.stux.digital, clientpage.stux.digital, soonpage.stux.digital and
+# maintenancepage.stux.digital. They all serve now, so each can be added to the Stux.Digital
+# group, and the Clients site's cards pick up its badge from the monitor's slug. The first client
+# site, Stux.Group, is monitored by Stux.Group Status (stux-group:stux-group), so there's no
+# client-sites group here yet.
 groups:
   - name: Stux.Digital
     description: The Stux.Digital studio's own site.
