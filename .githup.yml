@@ -31,11 +31,9 @@ defaults:
 
 # Monitors are grouped into sections on the page, each with a combined status.
 # Slugs come from the names, so moving a monitor between groups keeps its history.
-# Not monitored yet: clients.stux.digital, clientpage.stux.digital, soonpage.stux.digital and
-# maintenancepage.stux.digital. They all serve now, so each can be added to the Stux.Digital
-# group, and the Clients site's cards pick up its badge from the monitor's slug. The first client
-# site, Stux.Group, is monitored by Stux.Group Status (stux-group:stux-group), so there's no
-# client-sites group here yet.
+# The Clients site's cards pick up their live badge from a monitor's slug (from its name). The
+# first client site, Stux.Group, is monitored by Stux.Group Status (stux-group:stux-group), so
+# there's no client-sites group here yet.
 groups:
   - name: Stux.Digital
     description: The Stux.Digital studio's own site.
@@ -43,6 +41,22 @@ groups:
       - name: Stux.Digital
         url: https://stux.digital/
         description: The studio, and the front door for a new site
+      - name: Stux.Digital Clients
+        url: https://clients.stux.digital/
+        description: Every client site Stux.Digital has taken from idea to online
+
+  - name: Templates
+    description: The placeholder pages Stux.Digital sites show while they're on their way or down for maintenance.
+    monitors:
+      - name: Stux.Digital Clientpage
+        url: https://clientpage.stux.digital/
+        description: The placeholder a client's address shows while their site is on its way
+      - name: Stux.Digital Soonpage
+        url: https://soonpage.stux.digital/
+        description: The "coming soon" page template
+      - name: Stux.Digital Maintenancepage
+        url: https://maintenancepage.stux.digital/
+        description: The maintenance page template
 
   - name: Shared
     description: The media every Stux.Digital site relies on.
