@@ -33,7 +33,7 @@ table fills in after the workflow's first check.
 
 ## What's monitored
 
-Every 5 minutes (when GitHub runs the schedule late, a run checks up to 4 times, 5 minutes apart, to fill the gap), GitHup checks each monitor in [`.githup.yml`](.githup.yml):
+GitHup checks each monitor in [`.githup.yml`](.githup.yml) regularly. The workflow asks GitHub for a check every 5 minutes, but GitHub runs scheduled workflows best-effort and often less often, so the status page shows the real check rhythm ("checked about every … (last 24 h)"). When a run starts late, it checks up to 4 times, 5 minutes apart, to fill the gap:
 
 - **Stux.Digital:** the studio's own site, [stux.digital](https://stux.digital), and
   [Stux.Digital Clients](https://clients.stux.digital)
@@ -53,7 +53,7 @@ To announce planned maintenance, open an Issue yourself with the `githup` and `i
 
 ## How it works
 
-- **`.github/workflows/status.yml`** runs a GitHup `check` every 5 minutes (with `fill-gaps`, up to 4 checks when the schedule is late) and commits the
+- **`.github/workflows/status.yml`** asks GitHub for a GitHup `check` every 5 minutes (best-effort: GitHub often runs it less often; with `fill-gaps`, up to 4 checks when a run is late) and commits the
   results to `data/` as `github-actions[bot]`. When a status changes, hourly, and on pushes, it
   builds the GitHup status page into `_site` (with `site-dir`), and deploys it with `actions/deploy-pages`.
 - **`legal:` in `.githup.yml`** makes GitHup generate the **Boring Legal Stuff** hub at `/legal/`
