@@ -1,9 +1,9 @@
 # Stux.Digital Status: https://status.stux.digital
-# Checked every 5 minutes by .github/workflows/status.yml, using GitHup:
+# Asks GitHub for a check every 5 minutes (best-effort; GitHub often runs it less often) - .github/workflows/status.yml, using GitHup:
 # https://github.com/StuxGroup/GitHup
 site:
   name: Stux.Digital Status
-  description: Live status of Stux.Digital and the client sites it takes from idea to online, checked every 5 minutes.
+  description: Live status of Stux.Digital and the client sites it takes from idea to online, checked regularly.
   # Its own badge icon (the Stux.Digital mark with a heartbeat badge, from Clients' scripts/badge-icons.py),
   # as on clients.stux.digital. Its dark avatar reads on both of GitHup's themes.
   logo: https://clients.stux.digital/assets/img/clients/stux-digital-status.png
