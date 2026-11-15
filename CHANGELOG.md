@@ -5,6 +5,12 @@ All notable changes to Stux.Digital Status are documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Date Versioning](https://datevers.ing) since v26.10.23 (`YY.MM.DD`, the UTC release date, with `-1`, `-2`… for later releases the same day); earlier releases used [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## v26.11.15-2
+
+### Changed
+
+- The comment on the `*/5` schedule in `.github/workflows/status.yml` now says it asks GitHub for a check every 5 minutes on a best-effort basis, and that GitHub often runs it less often, instead of "may run it a little late". The schedule itself is unchanged
+
 ## v26.11.15-1
 
 ### Changed
