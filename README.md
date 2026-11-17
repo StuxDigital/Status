@@ -23,12 +23,12 @@ table fills in after the workflow's first check.
 
 | Group | Monitor | Status | Uptime (24 h) | Uptime (7 d) | Uptime (30 d) | Response time (24 h) |
 | ----- | ------- | ------ | ------------- | ------------ | ------------- | -------------------- |
-| Stux.Digital | [Stux.Digital](https://stux.digital/) | Up | 100.00% | 100.00% | 99.70% | 500 ms |
-| Stux.Digital | [Stux.Digital Clients](https://clients.stux.digital/) | Up | 100.00% | 100.00% | 100.00% | 110 ms |
-| Templates | [Stux.Digital Clientpage](https://clientpage.stux.digital/) | Up | 100.00% | 100.00% | 100.00% | 109 ms |
-| Templates | [Stux.Digital Soonpage](https://soonpage.stux.digital/) | Up | 100.00% | 100.00% | 100.00% | 114 ms |
-| Templates | [Stux.Digital Maintenancepage](https://maintenancepage.stux.digital/) | Up | 100.00% | 100.00% | 100.00% | 111 ms |
-| Shared | [Stux.Digital Media CDN](https://global.media.stux.digital/icon.png) | Up | 100.00% | 100.00% | 100.00% | 212 ms |
+| Stux.Digital | [Stux.Digital](https://stux.digital/) | Up | 100.00% | 100.00% | 99.69% | 613 ms |
+| Stux.Digital | [Stux.Digital Clients](https://clients.stux.digital/) | Up | 100.00% | 100.00% | 100.00% | 135 ms |
+| Templates | [Stux.Digital Clientpage](https://clientpage.stux.digital/) | Up | 100.00% | 100.00% | 100.00% | 127 ms |
+| Templates | [Stux.Digital Soonpage](https://soonpage.stux.digital/) | Up | 100.00% | 100.00% | 100.00% | 126 ms |
+| Templates | [Stux.Digital Maintenancepage](https://maintenancepage.stux.digital/) | Up | 100.00% | 100.00% | 100.00% | 118 ms |
+| Shared | [Stux.Digital Media CDN](https://global.media.stux.digital/icon.png) | Up | 100.00% | 100.00% | 100.00% | 227 ms |
 <!-- githup:end -->
 
 ## What's monitored
