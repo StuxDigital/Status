@@ -1,7 +1,7 @@
 {
  "version": 1,
  "generator": "GitHup",
- "updated": 1795038578,
+ "updated": 1795038879,
  "name": "Stux.Digital Status",
  "status": "up",
  "monitors": [
@@ -11,8 +11,8 @@
    "url": "https://stux.digital/",
    "status": "up",
    "code": 200,
-   "ms": 281,
-   "checked_at": 1795038578,
+   "ms": 494,
+   "checked_at": 1795038878,
    "last_change": {
     "at": 1793612360,
     "from": "down",
@@ -26,17 +26,17 @@
     "all": 99.713
    },
    "avg_ms": {
-    "24h": 471,
+    "24h": 476,
     "7d": 472,
     "30d": 474,
     "90d": 472,
     "all": 472
    },
    "totals": {
-    "checks": 1396,
-    "available": 1392,
-    "ms_sum": 656476,
-    "ms_n": 1392,
+    "checks": 1397,
+    "available": 1393,
+    "ms_sum": 656970,
+    "ms_n": 1393,
     "first": 1791482184
    },
    "incident": null
@@ -47,8 +47,8 @@
    "url": "https://clients.stux.digital/",
    "status": "up",
    "code": 200,
-   "ms": 194,
-   "checked_at": 1795038578,
+   "ms": 203,
+   "checked_at": 1795038878,
    "last_change": {
     "at": 1794005991,
     "from": null,
@@ -62,17 +62,17 @@
     "all": 100.0
    },
    "avg_ms": {
-    "24h": 143,
+    "24h": 147,
     "7d": 156,
     "30d": 168,
     "90d": 168,
     "all": 168
    },
    "totals": {
-    "checks": 322,
-    "available": 322,
-    "ms_sum": 53963,
-    "ms_n": 322,
+    "checks": 323,
+    "available": 323,
+    "ms_sum": 54166,
+    "ms_n": 323,
     "first": 1794005991
    },
    "incident": null
@@ -83,8 +83,8 @@
    "url": "https://clientpage.stux.digital/",
    "status": "up",
    "code": 200,
-   "ms": 203,
-   "checked_at": 1795038578,
+   "ms": 88,
+   "checked_at": 1795038878,
    "last_change": {
     "at": 1794005991,
     "from": null,
@@ -98,17 +98,17 @@
     "all": 100.0
    },
    "avg_ms": {
-    "24h": 173,
+    "24h": 172,
     "7d": 149,
     "30d": 164,
     "90d": 164,
     "all": 164
    },
    "totals": {
-    "checks": 322,
-    "available": 322,
-    "ms_sum": 52839,
-    "ms_n": 322,
+    "checks": 323,
+    "available": 323,
+    "ms_sum": 52927,
+    "ms_n": 323,
     "first": 1794005991
    },
    "incident": null
@@ -119,8 +119,8 @@
    "url": "https://soonpage.stux.digital/",
    "status": "up",
    "code": 200,
-   "ms": 325,
-   "checked_at": 1795038578,
+   "ms": 548,
+   "checked_at": 1795038878,
    "last_change": {
     "at": 1794005991,
     "from": null,
@@ -134,17 +134,17 @@
     "all": 100.0
    },
    "avg_ms": {
-    "24h": 159,
-    "7d": 150,
-    "30d": 168,
-    "90d": 168,
-    "all": 168
+    "24h": 175,
+    "7d": 152,
+    "30d": 170,
+    "90d": 170,
+    "all": 170
    },
    "totals": {
-    "checks": 322,
-    "available": 322,
-    "ms_sum": 54246,
-    "ms_n": 322,
+    "checks": 323,
+    "available": 323,
+    "ms_sum": 54794,
+    "ms_n": 323,
     "first": 1794005991
    },
    "incident": null
@@ -155,8 +155,8 @@
    "url": "https://maintenancepage.stux.digital/",
    "status": "up",
    "code": 200,
-   "ms": 195,
-   "checked_at": 1795038578,
+   "ms": 87,
+   "checked_at": 1795038878,
    "last_change": {
     "at": 1794005991,
     "from": null,
@@ -177,10 +177,10 @@
     "all": 162
    },
    "totals": {
-    "checks": 322,
-    "available": 322,
-    "ms_sum": 52173,
-    "ms_n": 322,
+    "checks": 323,
+    "available": 323,
+    "ms_sum": 52260,
+    "ms_n": 323,
     "first": 1794005991
    },
    "incident": null
@@ -191,8 +191,8 @@
    "url": "https://global.media.stux.digital/icon.png",
    "status": "up",
    "code": 200,
-   "ms": 801,
-   "checked_at": 1795038578,
+   "ms": 625,
+   "checked_at": 1795038878,
    "last_change": {
     "at": 1791482184,
     "from": null,
@@ -206,17 +206,17 @@
     "all": 100.0
    },
    "avg_ms": {
-    "24h": 277,
-    "7d": 225,
+    "24h": 295,
+    "7d": 227,
     "30d": 268,
     "90d": 317,
     "all": 317
    },
    "totals": {
-    "checks": 1396,
-    "available": 1396,
-    "ms_sum": 441983,
-    "ms_n": 1396,
+    "checks": 1397,
+    "available": 1397,
+    "ms_sum": 442608,
+    "ms_n": 1397,
     "first": 1791482184
    },
    "incident": null
