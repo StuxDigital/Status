@@ -19,16 +19,16 @@ table fills in after the workflow's first check.
 <!-- githup:start -->
 <!-- This table is written by GitHup (https://github.com/StuxGroup/GitHup); edits here are overwritten. -->
 
-**All systems operational** · [Live status page](https://status.stux.digital/)
+**Partial outage** · [Live status page](https://status.stux.digital/)
 
 | Group | Monitor | Status | Uptime (24 h) | Uptime (7 d) | Uptime (30 d) | Response time (24 h) |
 | ----- | ------- | ------ | ------------- | ------------ | ------------- | -------------------- |
-| Stux.Digital | [Stux.Digital](https://stux.digital/) | Up | 100.00% | 100.00% | 99.67% | 378 ms |
-| Stux.Digital | [Stux.Digital Clients](https://clients.stux.digital/) | Up | 100.00% | 100.00% | 100.00% | 177 ms |
-| Templates | [Stux.Digital Clientpage](https://clientpage.stux.digital/) | Up | 100.00% | 100.00% | 100.00% | 172 ms |
-| Templates | [Stux.Digital Soonpage](https://soonpage.stux.digital/) | Up | 100.00% | 100.00% | 100.00% | 161 ms |
-| Templates | [Stux.Digital Maintenancepage](https://maintenancepage.stux.digital/) | Up | 100.00% | 100.00% | 100.00% | 164 ms |
-| Shared | [Stux.Digital Media CDN](https://global.media.stux.digital/icon.png) | Up | 100.00% | 100.00% | 100.00% | 226 ms |
+| Stux.Digital | [Stux.Digital](https://stux.digital/) | **Down** | 87.50% | 97.80% | 99.23% | 384 ms |
+| Stux.Digital | [Stux.Digital Clients](https://clients.stux.digital/) | Up | 100.00% | 100.00% | 100.00% | 171 ms |
+| Templates | [Stux.Digital Clientpage](https://clientpage.stux.digital/) | Up | 100.00% | 100.00% | 100.00% | 163 ms |
+| Templates | [Stux.Digital Soonpage](https://soonpage.stux.digital/) | Up | 100.00% | 100.00% | 100.00% | 140 ms |
+| Templates | [Stux.Digital Maintenancepage](https://maintenancepage.stux.digital/) | Up | 100.00% | 100.00% | 100.00% | 157 ms |
+| Shared | [Stux.Digital Media CDN](https://global.media.stux.digital/icon.png) | Up | 100.00% | 100.00% | 100.00% | 223 ms |
 <!-- githup:end -->
 
 ## What's monitored
